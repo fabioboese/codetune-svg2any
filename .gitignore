@@ -1,0 +1,9 @@
+﻿################################################################################
+# This .gitignore file was automatically created by Microsoft(R) Visual Studio.
+################################################################################
+
+/src/Svg2Any/.vs
+/src/Svg2Any/Svg2Any/bin/
+/src/Svg2Any/Svg2Any/obj/
+/src/Svg2Any/Svg2AnyTray/bin/
+/src/Svg2Any/Svg2AnyTray/obj/
