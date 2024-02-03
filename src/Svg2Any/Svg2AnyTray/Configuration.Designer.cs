@@ -88,13 +88,13 @@
             lstFolders.ItemHeight = 15;
             lstFolders.Location = new Point(6, 6);
             lstFolders.Name = "lstFolders";
-            lstFolders.Size = new Size(309, 109);
+            lstFolders.Size = new Size(309, 124);
             lstFolders.TabIndex = 8;
             // 
             // btnAdd
             // 
             btnAdd.Anchor = AnchorStyles.Bottom | AnchorStyles.Right;
-            btnAdd.Location = new Point(162, 121);
+            btnAdd.Location = new Point(159, 143);
             btnAdd.Name = "btnAdd";
             btnAdd.Size = new Size(75, 23);
             btnAdd.TabIndex = 10;
@@ -105,7 +105,7 @@
             // btnRemove
             // 
             btnRemove.Anchor = AnchorStyles.Bottom | AnchorStyles.Right;
-            btnRemove.Location = new Point(240, 121);
+            btnRemove.Location = new Point(240, 143);
             btnRemove.Name = "btnRemove";
             btnRemove.Size = new Size(75, 23);
             btnRemove.TabIndex = 10;
@@ -116,7 +116,7 @@
             // btnSave
             // 
             btnSave.Anchor = AnchorStyles.Bottom | AnchorStyles.Right;
-            btnSave.Location = new Point(159, 332);
+            btnSave.Location = new Point(159, 355);
             btnSave.Name = "btnSave";
             btnSave.Size = new Size(75, 23);
             btnSave.TabIndex = 10;
@@ -127,7 +127,7 @@
             // btnCancel
             // 
             btnCancel.Anchor = AnchorStyles.Bottom | AnchorStyles.Right;
-            btnCancel.Location = new Point(240, 332);
+            btnCancel.Location = new Point(240, 355);
             btnCancel.Name = "btnCancel";
             btnCancel.Size = new Size(75, 23);
             btnCancel.TabIndex = 10;
@@ -146,7 +146,7 @@
             // spcSizes
             // 
             spcSizes.Anchor = AnchorStyles.Bottom | AnchorStyles.Left | AnchorStyles.Right;
-            spcSizes.Location = new Point(8, 149);
+            spcSizes.Location = new Point(8, 172);
             spcSizes.Name = "spcSizes";
             // 
             // spcSizes.Panel1
@@ -166,7 +166,7 @@
             btnSelectFile.FlatAppearance.BorderSize = 0;
             btnSelectFile.FlatStyle = FlatStyle.Flat;
             btnSelectFile.Image = Properties.Resources.select_files1;
-            btnSelectFile.Location = new Point(6, 121);
+            btnSelectFile.Location = new Point(6, 144);
             btnSelectFile.Name = "btnSelectFile";
             btnSelectFile.Size = new Size(23, 23);
             btnSelectFile.TabIndex = 10;
@@ -199,7 +199,7 @@
             pnlStatus.Controls.Add(lblStatus);
             pnlStatus.Controls.Add(btnStop);
             pnlStatus.Controls.Add(btnPlay);
-            pnlStatus.Location = new Point(6, 332);
+            pnlStatus.Location = new Point(6, 355);
             pnlStatus.Name = "pnlStatus";
             pnlStatus.Size = new Size(143, 23);
             pnlStatus.TabIndex = 15;
@@ -242,7 +242,7 @@
             tabControl1.Location = new Point(0, 0);
             tabControl1.Name = "tabControl1";
             tabControl1.SelectedIndex = 0;
-            tabControl1.Size = new Size(329, 391);
+            tabControl1.Size = new Size(329, 414);
             tabControl1.TabIndex = 16;
             // 
             // tbpConfiguration
@@ -258,7 +258,7 @@
             tbpConfiguration.Location = new Point(4, 24);
             tbpConfiguration.Name = "tbpConfiguration";
             tbpConfiguration.Padding = new Padding(3);
-            tbpConfiguration.Size = new Size(321, 363);
+            tbpConfiguration.Size = new Size(321, 386);
             tbpConfiguration.TabIndex = 0;
             tbpConfiguration.Text = "Configuration";
             tbpConfiguration.UseVisualStyleBackColor = true;
@@ -269,7 +269,7 @@
             tbpLog.Location = new Point(4, 24);
             tbpLog.Name = "tbpLog";
             tbpLog.Padding = new Padding(3);
-            tbpLog.Size = new Size(321, 386);
+            tbpLog.Size = new Size(321, 363);
             tbpLog.TabIndex = 1;
             tbpLog.Text = "Log";
             tbpLog.UseVisualStyleBackColor = true;
@@ -283,7 +283,7 @@
             textBox1.Name = "textBox1";
             textBox1.ReadOnly = true;
             textBox1.ScrollBars = ScrollBars.Both;
-            textBox1.Size = new Size(315, 380);
+            textBox1.Size = new Size(315, 357);
             textBox1.TabIndex = 0;
             textBox1.WordWrap = false;
             // 
@@ -293,7 +293,7 @@
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
             CancelButton = btnCancel;
-            ClientSize = new Size(329, 391);
+            ClientSize = new Size(329, 414);
             ControlBox = false;
             Controls.Add(tabControl1);
             Icon = (Icon)resources.GetObject("$this.Icon");
