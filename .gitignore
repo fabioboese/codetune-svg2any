@@ -7,3 +7,5 @@
 /src/Svg2Any/Svg2Any/obj/
 /src/Svg2Any/Svg2AnyTray/bin/
 /src/Svg2Any/Svg2AnyTray/obj/
+/**/*.user
+/src/Svg2Any/Svg2AnyTray/Svg2AnyTray.csproj.user
