@@ -2,6 +2,7 @@
 using Svg2Any.Model;
 using System;
 using System.Collections.Generic;
+using System.Drawing;
 using System.Drawing.Imaging;
 using System.Linq;
 using System.Text;
@@ -29,8 +30,13 @@ namespace Svg2Any.Converters
                     filename = $"{name}-r{size.Width}x{size.Height}.{Extension}";
 
                 var filePath = Path.Combine(outputDir, filename);
-                svg.Draw(size.Width, size.Height).Save(filePath, ImageFormat);
+                OnSaveImage(svg, size, filePath);
             }
+        }
+
+        protected virtual void OnSaveImage(SvgDocument svg, Size size, string filePath)
+        {
+            svg.Draw(size.Width, size.Height).Save(filePath, ImageFormat);
         }
     }
 }
